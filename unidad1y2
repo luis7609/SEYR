@@ -1,0 +1,315 @@
+  Aplicaci´on: C´alculo de frecuencia de resonancia el´ectrica
+1	Tensi´on y corriente instant´anea
+2	Tensi´on y corriente eficaz
+3	Factor de Potencia
+4	Potencia real, reactiva y aparente
+5	Aplicaciones
+Pruebas de Laboratorio
+C´alculo de Potencia y Factor de Potencia
+Mejorar Factor de Potencia
+Definici´on de corriente
+ 
+Voltaje.- Magnitud f´ısica que cuantifica la diferencial de potencial el´ectrico entre dos puntos. Tambi´en conocida como tensi´on el´ectrica o diferencial de potencial. [V]
+Corriente el´ectrica.- es un flujo de carga el´ectrica que recorre un material conductor durante un periodo de tiempo determinado [Cs ] = [A]
+dq
+i =	 [A]	(1) dt
+De forma general se tienen dos tipos de corriente el´ectrica alterna. directa.
+ 
+Definici´on de corriente
+Celular
+Panel solar
+Maquina trituradora
+Rayo
+Si un humano recibe una descarga el´ectrica que lo mata? ¿El voltaje o la corriente?
+Caracter´ısticas de una onda de corriente alterna
+CICLO: Un ciclo es un conjunto completo de valores de una onda peri´odica.
+FRECUENCIA: La frecuencia f de una onda peri´odica es el nu´mero de ciclos completos en un segundo. Un ciclo por segundo es un hertz Hz.
+PER´IODO: El per´ıodo T de una onda peri´odica es el tiempo necesario para completar un ciclo. El per´ıodo se expresa generalmente en segundos y es el rec´ıproco de la frecuencia.
+1
+T =	 	(2) f
+Vm es el valor m´aximo o amplitud de la onda.
+ 
+Considerando un voltaje senosoidal, cuya amplitud es Vm y su argumento es α (en radianes). La funci´on se repite cada 2π radianes.
+Si expresamos α en relaci´on con el tiempo, se tiene:
+	α = ωt	(3)
+Cuando t= T [s], entonces ωT = 2π (en radianes), por lo tanto, como el per´ıodo es el rec´ıproco de la frecuencia en hertz, la frecuencia angular, en radianes por segundo,se puede expresar como:
+	ω = 2πf	(4)
+ 
+ 
+Es m´as econ´omica generarla
+Produce menor perturbaci´on en el circuito.
+Eficiente
+Es mejor para su transporte en distancias largas.
+Para voltaje:
+  Sen˜al sin retraso (Voltaje instant´aneo)
+V (t) = Vm sin(ωt) = Vm cos(ωt + θ)
+  Sen˜al con retraso
+V (t) = Vm sin(ωt + θ) = Vm cos(ωt)
+Para corriente:
+  Sen˜al sin retraso (Corriente instant´aneo)
+i (t) = Im sin(ωt) = Im cos(ωt + θ)
+  Sen˜al con retraso
+i (t) = Im sin(ωt + θ) = Im cos(ωt)
+ 
+ 
+Resistencia.- Es la oposici´on que presenta un conductor al paso de corriente el´ectrica. Convertidor de energ´ıa el´ectrica en energ´ıa t´ermica, por lo tanto, disipa energ´ıa el´ectrica en forma de calor.
+Ley de Ohm
+	V	=	RI
+V
+R	=	 [Ω] I
+Reactancia.- Es la oposici´on que presenta un conductor al paso de corriente el´ectrica con sen˜al sinusoidal en inductores y capacitores.
+Impedancia.- Es la oposici´on al flujo de corriente sinosoidal.
+	Impedancia	=	Resistencia + j(Reactancia)
+	Z	=	R + jX [Ω]
+Magnitud de la impedancia.- Sirve para mantener una relaci´on entre voltaje y corriente alterna.
+p 2 + X2 [Ω]
+	Z =	R
+Impedancia Inductiva
+Z = R + jωL[Ω]
+Impedancia capacitiva
+1
+	Z = R − j	  [Ω]
+ωC
+Admitancia.- La facilidad de paso de corriente el´ectrica en un circuito. La unidad se le conoce como Siemens [S].
+1
+Y =	  [S] Z
+Fasores.- Representaci´on de vectores giratorios de la corriente el´ectrica alterna. Es una representaci´on abreviada en el dominio de la frecuencia. y nos ayuda en el an´alisis de circuitos de corriente alterna.
+υ (t)	=	Ri (t)[V]
+υm⌊θ	=	RIm⌊θ [V]
+υ	=	RI˜[V]
+e
+ 
+d
+i (t)	=	C	 υ (t)[A] dt
+ 
+υ (t)	=	d
+L	 i (t)[V] dt
+υ	=	jωLI˜[V]
+	 	ZLI˜[V]
+ 
+Equivalencias Serie y Paralelo en Fasores
+Serie	Paralelo 
+ 
+Si los par´ametros del circuito son υ (t)12cos(2000πt)[V], L = 35[mH], RL = 40[Ω] y R = 370[Ω]. Calcular la impedancia del circuito
+Determine la impedancia equivalente
+	del circuito si	  s
+ 
+La frecuencia de resonancia ωf es aquella frecuencia para la cual la reactancia de un circuito de corriente alterna es igual a cero, es decir, la impedancia es u´nicamente resistiva.
+X (ωf ) = X = 0
+Por lo tanto la impedancia en resonancia es
+Z (ωf )	=	|Z (ωf )|⌊θz (ωf ) = R (ωf ) + jX (ωf ) = R (ωf ) = R θz (ωf )	=	tan−1 (0) = 0[◦]
+El ´angulo de fase entre la corriente y el voltaje son iguales, a eso se le nombre ”que est´an en fase”.
+La frecuencia de resonancia depende de L y de C pero no de R.
+Resumen de operaciones con nu´meros complejos
+Sean z1 = a + bi y z2 = c + di pertenecientes al campo de los nu´meros complejos. Adici´on
+z1 + z2 = (a + c) + (b + d)i
+Sustracci´on
+z1 − z2 = (a − c) + (b − d)i
+Multiplicaci´on
+z1z2 = (a + bi)(c + di) = (ac − bd) + (ad + bc)i
+Divisi´on zz12 = zz12 · zz¯¯22 = ca++bidi · cc−−didi = ( ac+bdc)+(2+dbc2 −ad)i con z2 = 0̸
+Determine el modelo matem´atico de la reactancia que est´e en funci´on de la frecuencia de resonancia el´ectrica. 
+	d	a 
+	X	=	 2	= 0
+a2 + (b + d)
+ωf L
+	f	2	f	2
+	X	=	−	= 0
+R 
+Sustituyendo los valores de los componentes el´ectricos en la ecuaci´on anterior se tiene:
+0,012ωf  
+X	 Obteniendo una soluci´on con m´etodos num´ericos, se tiene que:
+ωf	=	{ωf = −268.15,ωf = 268.15,ωf = −680.86i,ωf = 680.86i}[Hz]
+Se desprecian las soluciones negativas e imaginarias y se tiene que la frecuencia de resonancia el´ectrica es
+ωf = 268,15[Hz]
+ 
+La potencia se define como: p (t) = υ (t) × i (t)[W] Conocemos que:
+υ (t) = Vm cos(ωt + θV )[V] i (t) = Im cos(ωt + θi)[A] Sustituyendo en la formula de potencia:
+p (t)	=	Vm cos(ωt + θV ) × Im cos(ωt + θi)[W] p (t)	=	VmIm cos(ωt + θV )cos(ωt + θi)[W]
+Realizando cambios de variable		
+A	=	ωt + θV
+B	=	ωt + θi
+Sustituyendo A y B en la ecuaci´on de potencia se tiene
+p (t) = VmIm cos(A)cos(B)[W]
+Utilizando la identidad trigonom´etrica
+ )), se tiene que la formula de
+potencia es
+p (t) =  VmIm (cos(A − B)cos(A + B))[W]
+Calculando los valores de A − B y A + B
+A − B	=	(ωt + θV ) − (ωt + θi)
+	=	θV − θi
+A + B	=	(ωt + θV ) + (ωt + θi)
+	=	2ωt + θV + θi
+Sustituyendo en la ecuaci´on de potencia
+p (t) =  VmIm  VmIm cos(2ωt + θV + θi)[W]
+El primer t´ermino es una constante conocida como potencia promedio y el segundo t´ermino es dependiente del tiempo.
+Comentarios importantes:
+Cuando la potencia instant´anea tiene signo (+) significa que se suministra energ´ıa de la fuente al circuito.
+Cuando la potencia instant´anea tiene signo (−) significa que se suministra energ´ıa del circuito a la fuente. El c´alculo del valor de la impedancia
+	V	Vm⌊θv	Vm
+Z = = = ⌊θv − θi I Im⌊θi Im
+La impedancia es importante para el calculo de potencia, sin embargo, en aplicaciones para telecomunicaciones y audio es un par´ametro de suma importancia para el disen˜o de circuitos el´ectricos.
+ 
+dos en una resistencia de corrien-
+te alterna versus corriente conti- V Vrms Vm nua. Es un valor medio cuadr´atico Z = I = Irms = Im ⌊θv − θi Es la m´etrica de rendimiento que nos permite conocer la cantidad de energ´ıa que se extrae de la red es convertida en energ´ıa u´til que se obtiene en el funcionamiento de un dispositivo el´ectrico o electr´onico.
+	Energ´ıa u´til	Potencia u´til
+	F.P =	=	[1]
+	Energ´ıa de la red	Potencia de la red
+Si F.P = 1 quiere decir que su rendimiento es m´aximo, y que toda la energ´ıa de la red es aprovechada. Carga puramente resistiva.
+Si F.P = 0 significa que no aprovecho nada de la energ´ıa. Por lo tanto, no hay trabajo. La energ´ıa se pierde por culpa de las bobinas en la creaci´on de campos magn´eticos. Carga puramente capacitiva (adelantada) e inductiva (atrasada).
+¿Qu´e pasa si obtengo un F.P > 1?
+ 
+ 
+Potencia real (activa), reactiva y aparente
+Potencia aparente.- Es la potencia total que se suministra y es absorbida de la red el´ectrica.
+Potencia reactiva.- Es la potencia de aquella energ´ıa que no se aprovecha del suministro de red.
+Potencia activa.- Es la potencia u´til que se aprovecha produciendo un trabajo de la energ´ıa absorbida de la red el´ectrica.
+
+ 
+En t´erminos de valores rms:
+P =  VrmsIrms cos(θv − θi)
+La potencia aparente:
+S = VrmsIrms
+Factor de Potencia Recordando la potencia promedio:
+	1	P
+	P =	 VmIm cos(θv − θi)	F.P =	  = cos(θv − θi)
+	2	S
+ 
+Es el producto del fasor de la tensi´on rms y el conjugado del fasor complejo de la corriente rms. Como variable compleja, su parte real representa la potencia real P y su parte imaginaria la potencia reactiva Q.
+	Potencia Compleja	S	 √ Irms cos(θv − θi)
+Potencia Aparente		S = VrmsIrms =	P2 + Q2
+Potencia Real	P = Re (S) = S cos(θv − θi)
+Potencia Reactiva	Q = Im (S) = S sin(θv − θi)
+Factor de Potencia	F.P = PS = cos(θv − θi)
+ 
+Pruebas de Laboratorio
+Medici´on de valor experimental	Medici´on de la corriente de un
+del Inductor.	motor
+ 
+Pruebas de Laboratorio
+ 
+C´alculo de Potencia y Factor de Potencia
+Calculo de Potencia y factor de potencia
+Una carga Z toma 12kVA, con factor de potencia atrasado de 0.856, de una fuente senoidal de 120V rms. Calcule:
+La potencia real y la potencia reactiva suministradas a la carga
+Corriente pico
+Impedancia de carga
+C´alculo de Potencia y Factor de Potencia
+Determinar las componentes del tri´angulo de potencias asociado a tres cargas con las siguientes caracter´ısticas
+Carga 1.- 250[VA] y fp = 0,5 atrasada
+Carga 2.- 180[W] y fp = 0,8 adelantada
+Carga 3.- 250[VA] y fp = 0,5 atrasada
+ 
+La correcci´on del factor de potencia puede examinarse desde otra perspectiva. Consid´erese el tri´angulo de potencias. Si la carga es inductiva tiene la potencia aparente S1, entonces:
+P	=	S1 cosθ1
+Q	=	S1 sinθ1 = P tanθ1
+Si se desea incrementar el factor de potencia de cosθ1 a cosθ2 la nueva potencia reactiva es: Q2 = P tan(θ2). 
+La reducci´on de la potencia reactiva es causada por el capacitor en paralelo, es decir:
+Qc = Q1 − Q2 = P (tanθ1 − tanθ2)
+Por otra parte el valor de la capacidad en paralelo requerida se determina como:
+	Qc	P (tanθ1 − tanθ2)
+	C =	=
+	ωVrms2	ωVrms2
+Advertencia: La potencia real o promedio no se ve alterada incorporando en paralelo un capacitor, dado que la potencia consumida por el capacitor es cero.
+Consid´erese se conecta una linea de potencia de 120V(rms) a 60Hz, una carga que absorbe 4kW con factor de potencia atrasado de 0.8. Halle el valor de la capacitancia necesaria para aumentar el fo a 0.95.
+ 
+ 
+ 
+ 
+En una empresa de tratamiento fitosanitario para madera se tienen instalados dos estufas el´ectricas (hornos de tratamiento) que en total consumen 3225.8W, y tres motores el´ectricos monofasicos id´enticos. Dichos motores son marca Siemens y de forma su placa de especificaciones dice que esta constituido por un resistor de 15[Ω] en serie con un inductor de 31,83[mH], tal como se muestra en la figura. Determinar:
+El factor de potencia global con los datos indicados.
+Determine el valor de la capacitancia de un condensador conectado en paralelo mejorando el factor de potencia a 1, con el objeto de disminuir el consumo de energ´ıa el´ectrica.
+
+Campo Magn´etico
+Ley de Faraday
+Fuerza de Lenz
+Transformadores
+Proyecto Opcional Existen tres principios principios b´asicos que describen como se utilizan los campos magn´eticos en cualquier aparato y trata la producci´on de este por un conductor porta corriente:
+1	Un conductor que porta corriente produce un campo magn´etico a su alrededor.
+2	Un campo magn´etico variable con el tiempo induce un voltaje en una bobina de alambre si pasa a trav´es de ´esta (base del funcionamiento del transformador).
+3	Un conductor que porta corriente en presencia de un campo magn´etico experimenta una fuerza inducida sobre ´el (base de funcionamiento de un generador).
+ 
+
+ 
+La ley b´asica que gobierna la producci´on de un campo magn´etico por una corriente es la ley de Ampere
+I
+H • dI = Inet
+donde
+H es la intensidad de campo mangetico producida por la corriente Inet
+Las unidades de I es amperes [A] y de H  m  La ley de ampere en un nu´cleo ferromagn´etico se convierte en
+Ni
+	B = µH = µ	  [T]
+lc
+donde
+H es la intensidad del campo magn´etico µ es la permeabilidad magn´etica del material B es la densidad de flujo magn´etico resultante lc longitud media del nu´cleo
+Ninu´mero de vueltas del embobinado
+En otras palabras, la densidad de flujo magn´etico real producida en una secci´on del material est´a dada por:
+1	H que representa el esfuerzo de la corriente por establecer un campo magn´etico. La unidad es ampere-vuelta por metro.
+2	µ que representa la facilidad relativa para establecer un campo magn´etico en un material dado. La unidad es  
+La permeabilidad del espacio libre se denomina µ0 y su valor es:
+ 
+La permeabilidad de cualquier material comparada con la permeabilidad del vaci´o se denomina permeabilidad relativa
+ 
+En un nu´cleo ferromagn´etico, la magnitud de la densidad de flujo est´a dada por
+µNi
+	B = µH =	  [T]
+lc
+ 
+El flujo total en cierta ´area est´a dado por
+Z
+	ϕ =	B • dA
+A
+Si la densidad de flujo es constante en toda el ´area la ecuaci´on se reduce a
+µNiA
+	ϕ = BA =	  [Wb]
+lc
+Siempre que existe un flujo magn´etico ϕ en un cuerpo o componente, se debe a la presencia de una intensidad de campo magn´etico H dada por
+ℑ H =  
+l
+donde
+H intensidad de campo magn´etico
+ℑ fuerza magnetomotriz que actu´a en el componente
+La reluctancia (resistencia magn´etica) de un circuito magn´etico es:
+	lm	ℑ
+	R =	=
+	µA	ϕ
+ 
+En la figura se muestra un solenoide con las dimensiones indicadas. Se sabe que el ´area transversal formada por el nu´cleo del mismo y plano ”xz.es cruzada por un flujo magn´etico de 31.978[nWb] en sentido negativo del eje de las  ”; es decir hacia la izquierda de la figura. Con base en ello, determine:
+1	el vector magn´etico en el origen del sistema de referencia mostrado. Exprese el resultado
+en [µT].
+2	La corriente el´ectrica indicada.
+ 
+ 
+El circuito magn´etico que se muestra est´a hecho de un material cuya permeabilidad magn´etica es µ y tiene un embobinado de N vueltas. Con base en la figura y sabiendo que la magnitud del campo magn´etico en su interior es B = 0,8[T] y la magnitud del vector intensidad de campo magn´etico es H = 4250[mA ], determine:
+1	El diagrama que representa dicho circuito, indicando el valor de la fuerza magnetomotriz la reluctancia.
+ 
+Es la relaci´on entre el voltaje y el flujo magn´etico en un circuito. Dicha ley establece que:
+1	Si el flujo que vincula un lazo (o vuelta) varia como una funci´on de tiempo, se induce un voltaje entre sus terminales.
+2	El valor del voltaje inducido es proporcional a la velocidad de cambio de flujo.
+dϕ
+E = N  
+dt
+La ley de Faraday de inducci´on electromagn´etica abri´o la puerta a un sinnu´mero de aplicaciones practicas y estableci´o la base de operaci´on de transformadores, generadores y motores de corriente alterna. donde:
+E es el voltaje inducido [V]
+N nu´mero de vueltas de la bobina dϕ   es la raz´on de cambio del flujo magn´etico dentro de una bobina dt
+1	Maquina el´ectrica.- es un dispositivo que puede convertir energ´ıa mec´anica en energ´ıa el´ectrica o viceversa.
+2	Generador.- es un dispositivo que convierte energ´ıa mec´anica en energ´ıa el´ectrica. https://www.youtube.com/shorts/vHUSDanJdEE
+3	Motor.- Es un dispositivo que convierte energ´ıa el´ectrica en energ´ıa mec´anica. https://www.youtube.com/watch?v=J3gvpaNFvZU
+4	Transformador.- es un dispositivo que convierte energ´ıa el´ectrica de corriente alterna de cierto nivel de voltaje en energ´ıa de corriente alterna de cierto nivel de voltaje. Utilizan el mismo principio que los generadores y motores.
+5	Inversor.- es un dispositivo que convierte la energ´ıa el´ectrica de corriente continua producida por el panel solar en corriente alterna con los par´ametros adecuados de voltaje y frecuencia.
+ 
+ 
+Ciclo de Hist´eresis
+Suponiendo que le flujo inicial en el nu´cleo es cero. Cuando se incrementa la corriente por primera vez, el flujo en el nu´cleo sigue la trayectoria de subida hasta la secci´on remanente. Cuando la corriente va decreciendo, el flujo en el nu´cleo sigue la trayectoria de bajada hasta llegar a la secci´on de saturaci´on. Cuando la corriente se incrementa de nuevo, el flujo vuelve a subir pero tiene un desfase con respecto a la primera subida. A ese efecto se le conoce como hist´eresis.
+Ciclo de Hist´eresis
+ 
+ 
+Un sistema moderno de potencia, se genera potencia el´ectrica a voltajes de 12 a 25kV. Los transformadores elevan el voltaje hasta niveles comprendidos entre 110kV y cerca de los 1000kV para transmisi´on a grandes distancias con pocas perdidas y, nuevamente, los transformadores bajan el voltaje en un rango de 12 y 34.5kV para distribuci´on local, y para permitir potencia el´ectrica sea utilizada con seguridad en los hogares, oficinas y fabricas a voltajes tan bajos como 120V.
+ 
+ 
+1	Transformador de unidad.- Es el transformador conectado a la salida de un generador utilizado para elevar el voltaje hasta los niveles de transmisi´on.
+2	Transformador de subestaci´on.- Es el transformador situado en el extremo de la linea de trasmisi´on que reduce el voltaje de los niveles de transmisi´on a los niveles de distribuci´on.
+3	Transformador de distribuci´on.- Es el transformador que reduce el voltaje de distribuci´on al voltaje final a que se utiliza la potencia (110,220,440,etc).
+ 
+ 
+https://www.youtube.com/watch?v=hatgOr5aLWE
